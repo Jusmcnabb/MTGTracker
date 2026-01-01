@@ -24,6 +24,8 @@ public class Game {
     
     @ManyToOne
     private Player winner;  // Who won
+
+    private String winCon; // how they won.
     
     private LocalDateTime gameDate;
     
